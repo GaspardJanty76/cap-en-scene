@@ -1,0 +1,121 @@
+/*ARRIERE PLAN DU SITE*/
+ 
+body {
+    background-image: url('fond.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* NAV-BAR */
+
+.img-nav {
+    width: 20%;
+}
+
+.text-nav {
+    flex: 1;
+}
+
+
+/*TEXTE CHARTRE GRAPH*/
+
+.calibri {
+    font-family: 'Calibri';
+    text-decoration: none;
+}
+
+
+.green {
+    color: #008f3f;
+}
+
+
+.gray {
+    color: #3d5463;
+}
+
+
+
+
+/*footer*/
+
+
+html, body {
+    height: 100%;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container {
+    flex: 1;
+}
+
+
+footer {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.footer-images {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-images a {
+    color: blue;
+    width: 10%;
+}
+
+.footer-images a img{
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+.main-content {
+    min-height: calc(100vh - 100px);
+}
+
+/*   TABLEAU ADMIN   */
+
+
+.tableau {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+
+tr:nth-child(even) {
+    background-color: rgb(225, 225, 225);
+}
+
+
+tr:nth-child(odd) {
+    background-color: rgb(210, 210, 210);
+}
+

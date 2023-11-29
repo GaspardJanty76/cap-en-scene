@@ -1,0 +1,57 @@
+.block {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    width: 97%;
+    border-radius: 10px; /*arrondir les angles !*/
+}
+
+
+ 
+/*FLOATING LABELS*/
+
+
+.floating-labels .form-label {
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    top: 10px;
+    transition: 0.2s ease all;
+    color: black;
+    background-color: rgb(225, 225, 225);
+    padding: 0 5px;
+    border: 1px solid rgb(225, 225, 225);
+}
+
+
+.floating-labels .form-control {
+    background-color: rgb(225, 225, 225);
+    color: black;
+    border: 1px solid rgb(225, 225, 225);
+}
+
+
+.floating-labels .form-control:focus + .form-label,
+.floating-labels .form-control:not(:placeholder-shown) + .form-label {
+    font-size: 12px;
+    top: -10px;
+}
+
+
+/*POP UP BOOTSTRAP*/
+
+
+.modal-header {
+    border: none;
+}
+
+
+.modal-body {
+    border: none;
+}
+
+
+.modal-footer {
+    border: none;
+}
+

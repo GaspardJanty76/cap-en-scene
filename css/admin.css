@@ -1,0 +1,58 @@
+.bouttons {
+    display: flex;
+    padding: 20px;
+    padding-top: 50px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*TEXTE CHARTRE GRAPH*/
+
+.calibri {
+    font-family: 'Calibri';
+    text-decoration: none;
+}
+
+
+.green {
+    color: #008f3f;
+}
+
+
+.gray {
+    color: #3d5463;
+}
+
+.red {
+    color: rgb(166, 17, 17);
+}
+
+/*   TABLEAU ADMIN   */
+
+
+.tableau {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+.border {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap;
+}
