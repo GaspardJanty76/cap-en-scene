@@ -1,10 +1,10 @@
 <?php
 // Paramètres de connexion à la base de données
-$serveur = "localhost"; // Adresse du serveur MySQL
-$port = 3306;
-$utilisateur = "u749965636_admin"; // Nom d'utilisateur MySQL
-$motdepasse = "tS]QKB*fr7M]"; // Mot de passe MySQL
-$basededonnees = "u749965636_capenscene"; // Nom de la base de données
+$serveur = ""; // Adresse du serveur MySQL
+$port = ;
+$utilisateur = ""; // Nom d'utilisateur MySQL
+$motdepasse = ""; // Mot de passe MySQL
+$basededonnees = ""; // Nom de la base de données
 
 // Connexion à la base de données en utilisant les paramètres définis ci-dessus
 $connexion = new mysqli($serveur, $utilisateur, $motdepasse, $basededonnees, $port);
